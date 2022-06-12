@@ -33,7 +33,4 @@ router.get("/:id", (req, res) => {
   res.send(user);
 });
 
-// deleye user  by id
-router.delete("/:id", res);
-
 export default router;
